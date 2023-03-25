@@ -2,6 +2,7 @@ import React from 'react';
 import CardProject from './CardProject';
 // import portfolioReact from '../assets/portfolio-react.png';
 import { dataPortfolio } from '../data/data';
+import { Outlet } from 'react-router-dom';
 
 const Project = () => {
   return (
@@ -15,7 +16,7 @@ const Project = () => {
             {dataPortfolio
               .filter((items) => items.catergory === 'Team')
               .map((items) => (
-                <CardProject image={items.image} nama={items.nama} />
+                <CardProject id={items.id} image={items.image} nama={items.nama} />
               ))}
           </div>
         </div>
@@ -26,11 +27,12 @@ const Project = () => {
             {dataPortfolio
               .filter((value) => value.catergory === 'Individual')
               .map((value) => (
-                <CardProject image={value.image} nama={value.nama} />
+                <CardProject id={value.id} image={value.image} nama={value.nama} />
               ))}
           </div>
         </div>
       </div>
+      <Outlet />
     </div>
   );
 };
