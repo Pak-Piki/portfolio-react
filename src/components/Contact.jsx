@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="w-full h-screen min-h-full m-auto md:pl-20 p-4 py-16 bg-sky-900 ">
+    <div data-theme="night" className="w-full h-screen min-h-full m-auto md:pl-20 p-4 py-16 bg-sky-900 ">
       <h1 className="text-4xl font-bold text-center text-[#42f5ff] mb-10">Contact</h1>
       <form className="md:mx-20 ">
         <div className="grid md:grid-cols-2 md:gap-16 w-full py-2 ">
@@ -37,7 +37,7 @@ const Contact = () => {
           </label>
           <textarea className="border-2 rounded-lg p-3 border-[#42f5ff]"></textarea>
         </div>
-        <div className="w-full flex justify-center">
+        <div className="w-full flex justify-center mt-10">
           <button className="bg-black/50 text-white rounded-lg w-[500px] mx-auto p-4">Send Message</button>
         </div>
       </form>
