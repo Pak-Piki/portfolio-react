@@ -11,8 +11,7 @@ const Hero = () => {
           LinkedIn <FaLinkedinIn size={20} />
         </>
       ),
-      href: 'https://linkedin.com',
-      style: 'rounded-tr-md',
+      href: 'https://www.linkedin.com/in/rikyridhopangestu/',
     },
     {
       id: 2,
@@ -54,7 +53,7 @@ const Hero = () => {
         <div className="flex items-center justify-between gap-7 max-w-5xl mx-auto py-4">
           {links.map(({ id, child, href, download }) => (
             <ul>
-              <li key={id} className="flex justify-between items-center md:min-w-[200px] rounded-md shadow-md text-white shadow-[#42f5ff] p-5 cursor-pointer hover:scale-110 ">
+              <li key={id} className="flex justify-between items-center md:min-w-[200px] rounded-md shadow-md text-white shadow-[#42f5ff] p-5 cursor-pointer hover:scale-110 duration-200 ">
                 <a href={href} className="flex justify-between gap-2 items-center w-full text-white" download={download} target="_blank" rel="noreferrer">
                   {child}
                 </a>
