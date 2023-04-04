@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-ridho/static/css/main.c58fefdb.css",
-    "main.js": "/portfolio-ridho/static/js/main.54df548d.js",
-    "static/media/piki-bread.png": "/portfolio-ridho/static/media/piki-bread.43eef91199110eb7c8ee.png",
-    "static/media/mininalism.png": "/portfolio-ridho/static/media/mininalism.5e2a55e59ed417fe862e.png",
-    "static/media/portfolio-react.png": "/portfolio-ridho/static/media/portfolio-react.2f6da61db3767fe59b0b.png",
-    "index.html": "/portfolio-ridho/index.html",
-    "main.c58fefdb.css.map": "/portfolio-ridho/static/css/main.c58fefdb.css.map",
-    "main.54df548d.js.map": "/portfolio-ridho/static/js/main.54df548d.js.map"
+    "main.css": "/portfolio-react/static/css/main.c58fefdb.css",
+    "main.js": "/portfolio-react/static/js/main.da077111.js",
+    "static/media/piki-bread.png": "/portfolio-react/static/media/piki-bread.43eef91199110eb7c8ee.png",
+    "static/media/mininalism.png": "/portfolio-react/static/media/mininalism.5e2a55e59ed417fe862e.png",
+    "static/media/portfolio-react.png": "/portfolio-react/static/media/portfolio-react.2f6da61db3767fe59b0b.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.c58fefdb.css.map": "/portfolio-react/static/css/main.c58fefdb.css.map",
+    "main.da077111.js.map": "/portfolio-react/static/js/main.da077111.js.map"
   },
   "entrypoints": [
     "static/css/main.c58fefdb.css",
-    "static/js/main.54df548d.js"
+    "static/js/main.da077111.js"
   ]
 }
